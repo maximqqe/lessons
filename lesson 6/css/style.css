@@ -1,0 +1,52 @@
+body{
+   background-color: #f6f6f6;
+}
+
+.card{
+   background-color: #fff;
+   width: 1010px;
+   height: 500px;
+   margin: 50px auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img{
+   display: inline-block;
+   margin: 60px;
+   width: 380px;
+   height: 380px;
+}
+
+.card-desc{
+   display: inline-block;
+   vertical-align: top;
+   width: 500px;
+   height: 500px;
+}
+
+.desc-title{
+   margin-top: 80px;
+   font-size: 23px;
+   font-weight: 700;
+}
+
+.desc-main{
+   margin-top: 30px;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+.desc-cost{
+   margin-top: 10px;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.desc-button{
+   width: 250px;
+   height: 50px;
+   background-color: #ec744a;
+   color: #fff;
+   font-size: 19px;
+   border: none;
+}
