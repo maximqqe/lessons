@@ -1,0 +1,33 @@
+body{
+   background-color: #f6f6f6;
+}
+.title{
+   text-align: center;
+   font-size: 40px;
+}
+
+.products{
+   display: flex;
+   justify-content: space-around;
+   margin: 100px 50px;
+   text-align: center;
+}
+
+.products__img{
+   width: 250px;
+   height: 200px;
+}
+
+.products__text{
+   margin-top: 30px;
+}
+
+.products__button{
+   width: 200px;
+   height: 50px;
+   margin-top: 30px;
+   background-color: #f6f6f6;
+   border: 2px solid #00fff2;
+   color: #00fff2;
+   font-size: 20px;
+}
