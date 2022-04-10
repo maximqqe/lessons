@@ -1,0 +1,153 @@
+*{
+   box-sizing: border-box;
+}
+
+.hero{
+   height: 800px;
+   background-color:#f4f5f7; 
+   padding: 70px 200px 0px;
+}
+
+.header{
+   color: #95989a;
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.wrapper-main{
+   margin-top: 160px;
+   display: flex;
+   justify-content: space-between;
+   height: 600;
+}
+
+.subtitle{
+   color: #32325f;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 20px;
+   display: block;
+}
+
+.title{
+   display: block;
+   font-size: 48px;
+   color: #32325f;
+   margin-bottom: 30px;
+}
+
+
+.main-text__span{
+   font-size: 20px;
+   color: #32325f;
+   display: block;
+}
+
+.main-text__price-tag{
+   display: block;
+   font-size: 20px;
+   color: #32325f;
+   margin-top: 25px;
+}
+.main-text__price{
+   color: #525f7f;
+   font-size: 48px;
+   margin-top: 15px;
+}
+
+.button-buy{
+   background-color: #2dce89;
+   border: none;
+   color: #fff;
+   width: 200px;
+   height: 60px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+
+.button-explore{
+   background-color: #5e72e4;
+   border: none;
+   font-size: 20px;
+   border-radius: 10px;
+   height: 60px;
+   width: 250px;
+   color: #fff;
+   margin-left: 20px;
+}
+
+.main-img{
+   width: 560px;
+   height: 365px;
+}
+
+.about{
+   padding: 90px 200px;
+   height: 700px;
+}
+.wrapper-content{
+   margin-top: 100px;
+   display: flex;
+}
+
+.content-item{
+   width: 250px;
+   margin-right: 40px;
+}
+
+.content-item__text{
+   display: block;
+   font-size: 16px;
+   color: hsl(223, 22%, 41%);
+   margin-top: 40px;
+}
+
+.people{
+   height: 1000px;
+   padding: 130px 220px;
+   background-color:#f4f5f7;
+}
+
+.people__img{
+   width: 340px;
+   height: 240px;
+   margin-bottom: 30px;
+}
+
+.people__wrapper-img{
+   margin-top: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.footer{
+   background-color: #32325f;
+   height: 300px;
+   padding: 70px 200px 100px 200px;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__title{
+   font-size: 24px;
+   margin-bottom: 40px;
+}
+
+.footer__item{
+   width: 230px;
+}
+
+.footer__text{
+   font-size: 16px;
+   display: block;
+}
+
+.footer__link{
+   font-size: 16px;
+   display: block;
+   text-decoration: none;
+   color: #fff;
+}
