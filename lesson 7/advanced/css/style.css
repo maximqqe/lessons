@@ -1,8 +1,9 @@
 body{
    background-image: url(../img/bg.jpg);
+   background-size: cover;
 }
 
-.main{
+.main-wrapper{
    margin-top: 50px;
    display: flex;
    justify-content: center;
@@ -14,32 +15,32 @@ body{
    height: 500px;
 }
 
-.main__text{
+.main-text{
    width: 600px;
    height: 450px;
    margin-left: 150px;
    padding-top: 40px;
 }
 
-.main__subtitle{
+.main-text__subtitle{
    font-weight: 500;
    letter-spacing: 2px;
    margin-top: 0;
    font-size: 40px;
 }
 
-.main__title{
+.main-text__title{
    font-size: 60px;
    margin-bottom: 5px;
 }
 
-.main__price{
+.main-text__price{
    margin-top: 20px;
    font-size: 45px;
    color: #000000c8;
 }
 
-.main__button{
+.main-text__button{
    margin-top: 40px;
    font-size: 20px;
 }
@@ -117,7 +118,7 @@ body{
 }
 
 .footer__img{
-   width: 250px;
-   height: 250px;
-   margin: 0px 20px;
+   width: 300px;
+   height: 300px;
+   margin: 0px 40px;
 }
