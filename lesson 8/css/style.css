@@ -5,7 +5,7 @@
 .hero{
    height: 800px;
    background-color:#f4f5f7; 
-   padding: 70px 200px 0px;
+   padding: 70px 390px 0px;
 }
 
 .header{
@@ -77,13 +77,13 @@
    margin-left: 20px;
 }
 
-.main-img{
+.main__img{
    width: 560px;
    height: 365px;
 }
 
 .about{
-   padding: 90px 200px;
+   padding: 90px 390px;
    height: 700px;
 }
 .wrapper-content{
@@ -91,12 +91,12 @@
    display: flex;
 }
 
-.content-item{
+.wrapper-content__item{
    width: 250px;
-   margin-right: 40px;
+   margin-right: 70px;
 }
 
-.content-item__text{
+.wrapper-content__text{
    display: block;
    font-size: 16px;
    color: hsl(223, 22%, 41%);
@@ -105,17 +105,17 @@
 
 .people{
    height: 1000px;
-   padding: 130px 220px;
+   padding: 130px 390px;
    background-color:#f4f5f7;
 }
 
-.people__img{
-   width: 340px;
-   height: 240px;
+.people-wrapper__img{
+   width: 360px;
+   height: 255px;
    margin-bottom: 30px;
 }
 
-.people__wrapper-img{
+.people-wrapper{
    margin-top: 100px;
    display: flex;
    flex-wrap: wrap;
@@ -125,7 +125,7 @@
 .footer{
    background-color: #32325f;
    height: 300px;
-   padding: 70px 200px 100px 200px;
+   padding: 70px 390px 100px 390px;
    color: #fff;
    display: flex;
    justify-content: space-between;
