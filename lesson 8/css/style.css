@@ -5,7 +5,7 @@
 .hero{
    height: 800px;
    background-color:#f4f5f7; 
-   padding: 70px 390px 0px;
+   padding: 70px 390px 190px;
 }
 
 .header{
@@ -78,8 +78,8 @@
 }
 
 .main__img{
-   width: 560px;
-   height: 365px;
+   width: 500px;
+   height: 305px;
 }
 
 .about{
