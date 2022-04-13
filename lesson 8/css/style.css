@@ -131,21 +131,21 @@
    justify-content: space-between;
 }
 
-.footer__title{
+.footer-container__title{
    font-size: 24px;
    margin-bottom: 40px;
 }
 
-.footer__item{
+.footer-container{
    width: 230px;
 }
 
-.footer__text{
+.footer-container__text{
    font-size: 16px;
    display: block;
 }
 
-.footer__link{
+.footer-container__link{
    font-size: 16px;
    display: block;
    text-decoration: none;
