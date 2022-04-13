@@ -5,6 +5,7 @@
 .hero{
    padding: 70px 20% 190px 20%;
    background-color: #f4f5f7;
+   min-width: 320px;
 }
 
 .navbar{
@@ -107,12 +108,12 @@
    color: #fff;
 }
 
-.footer__text{
+.footer-container__text{
    font-size: 16px;
    display: block;
 }
 
-.footer__link{
+.footer-container__link{
    font-size: 16px;
    display: block;
    text-decoration: none;
@@ -134,11 +135,11 @@
       width: 390px;
       height: 266px;
    }
-   .footer__title{
+   .footer-container__title{
       margin-bottom: 10px;
    }
 
-   .footer__item{
+   .footer-container{
       margin-bottom: 30px;
       text-align: center;
    }
@@ -152,8 +153,4 @@
    .wrapper-content__img{
       margin: 30px auto;
    }
-}
-
-@media screen and (max-width: 992px){
-
 }
